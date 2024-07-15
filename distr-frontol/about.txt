@@ -1,0 +1,44 @@
+1:HL["/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2",{"as":"font","type":"font/woff2"}]
+2:HL["/_next/static/css/19fb18cc819f362f.css",{"as":"style"}]
+0:["Ez9UXiWleIx9K3PjQHrDY",[[["",{"children":["about",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/19fb18cc819f362f.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":3015,"chunks":["835:static/chunks/835-98d773ba05c6e15b.js","185:static/chunks/app/layout-e738da3c66daee7f.js"],"name":"","async":false}
+7:I{"id":6685,"chunks":["835:static/chunks/835-98d773ba05c6e15b.js","185:static/chunks/app/layout-e738da3c66daee7f.js"],"name":"","async":false}
+8:I{"id":464,"chunks":["835:static/chunks/835-98d773ba05c6e15b.js","185:static/chunks/app/layout-e738da3c66daee7f.js"],"name":"Navlinks","async":false}
+9:I{"id":7767,"chunks":["272:static/chunks/webpack-ba12b6bfadc156e2.js","971:static/chunks/fd9d1056-c9eb6f688b3961a6.js","596:static/chunks/596-547d92dce03e0a0e.js"],"name":"default","async":false}
+a:I{"id":7920,"chunks":["272:static/chunks/webpack-ba12b6bfadc156e2.js","971:static/chunks/fd9d1056-c9eb6f688b3961a6.js","596:static/chunks/596-547d92dce03e0a0e.js"],"name":"default","async":false}
+b:I{"id":160,"chunks":["835:static/chunks/835-98d773ba05c6e15b.js","185:static/chunks/app/layout-e738da3c66daee7f.js"],"name":"Footer","async":false}
+c:I{"id":209,"chunks":["835:static/chunks/835-98d773ba05c6e15b.js","185:static/chunks/app/layout-e738da3c66daee7f.js"],"name":"CookieConsent","async":false}
+6:T68e,
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+
+                (function initConsent() {
+                    const consentPropertyType = 'site_consent';
+                    const cookies = document.cookie
+                        .split(';')
+                        .map(cookie => cookie.split('='))
+                        .reduce((acc, [consentPropertyType, value]) => ({...acc, [consentPropertyType.trim()] : value}), {});
+                    
+                    const hasConsented = () => cookies[consentPropertyType] === "true" ? true : false;
+                    
+                    let consentPayload = {
+                        ad_storage: hasConsented() ? "granted" : "denied",
+                        analytics_storage: hasConsented() ? "granted" : "denied",
+                        facebook: hasConsented() ? "granted" : "denied"
+                    }
+                    
+                    if (!hasConsented()) {
+                        consentPayload.wait_for_update = 2000 // milliseconds
+                    }
+                    gtag("consent", "default", consentPayload);
+                })();
+                
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-KQ6C9F2');
+            3:[["$","html",null,{"lang":"ru","children":["$","body",null,{"className":"__className_e66fe9","children":[["$","div",null,{"className":"wrapper","children":[["$","$L5",null,{"id":"google-tag-manager","strategy":"afterInteractive","children":"$6"}],["$","nav",null,{"className":"navbar navbar-expand-md navbar-dark bg-dark","children":["$","div",null,{"className":"container-fluid","children":[["$","$L7",null,{"className":"navbar-brand","href":"/","children":"Frontol Service Addon"}],["$","button",null,{"className":"navbar-toggler","type":"button","data-bs-toggle":"collapse","data-bs-target":"#navbarSupportedContent","aria-controls":"navbarSupportedContent","aria-expanded":"false","aria-label":"Toggle navigation","children":["$","span",null,{"className":"navbar-toggler-icon"}]}],["$","header",null,{"className":"collapse navbar-collapse","id":"navbarSupportedContent","children":["$","$L8",null,{}]}]]}]}],["$","div",null,{"className":"content container-xxl my-md-4 bd-layout","children":["$","main",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","about","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":[["$","div",null,{"className":"container","children":[["$","h1",null,{"className":"text-center","children":"О нас"}],["$","p",null,{"className":"text-center","children":"О нас"}]]}],null],"segment":"__PAGE__"},"styles":[]}],"segment":"about"},"styles":[]}]}]}],["$","$Lb",null,{}]]}],["$","$Lc",null,{}]]}]}],null]
+4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"О нас"}],["$","meta","2",{"name":"description","content":"О нас"}],["$","meta","3",{"name":"keywords","content":"О нас"}],["$","meta","4",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link","5",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"any"}],["$","meta","6",{"name":"next-size-adjust"}]]
