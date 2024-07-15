@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sharpUpdate>
+  <update>
+    <version>1.0.0.6</version>
+    <url>https://cfgsoft.github.io/FrontolServiceAddon/FrontolServiceAddon.exe</url>
+    <filePath>./FrontolServiceAddon.exe</filePath>
+    <md5>DA3040CC5253A049A0AA40DED3F772D1</md5>
+    <description>Update auto: 15/12/2023 11:26:18 :1.Updated a label.</description>
+    <launchArgs />
+  </update>
+  <update>
+    <version>5.9.1.0</version>
+    <url>https://cfgsoft.github.io/FrontolServiceAddon/FirebirdSql.Data.FirebirdClient.dll</url>
+    <filePath>./FirebirdSql.Data.FirebirdClient.dll</filePath>
+    <md5>74E38B63E15A4D67FC1F4D1EAC89B1AE</md5>
+    <description>Update auto: 15/12/2023 11:26:18 :1.Updated a label.</description>
+    <launchArgs />
+  </update>
+  <update>
+    <version>1.0.0.4</version>
+    <url>https://cfgsoft.github.io/FrontolServiceAddon/FrontolService.DAL.dll</url>
+    <filePath>./FrontolService.DAL.dll</filePath>
+    <md5>B0D87A34A8B74F40DC8E02231136F012</md5>
+    <description>Update auto: 15/12/2023 11:26:18 :1.Updated a label.</description>
+    <launchArgs />
+  </update>
+  <update>
+    <version>1.8.4.31</version>
+    <url>https://cfgsoft.github.io/FrontolServiceAddon/Ionic.Zip.dll</url>
+    <filePath>./Ionic.Zip.dll</filePath>
+    <md5>DA9FD3B0A49625FC38C647840D978AA4</md5>
+    <description>Update auto: 15/12/2023 11:26:18 :1.Updated a label.</description>
+    <launchArgs />
+  </update>
+  <update>
+    <version>2.0.8.0</version>
+    <url>https://cfgsoft.github.io/FrontolServiceAddon/log4net.dll</url>
+    <filePath>./log4net.dll</filePath>
+    <md5>7EA1429E71D83A1CCAA0942C4D7F1C41</md5>
+    <description>Update auto: 15/12/2023 11:26:18 :1.Updated a label.</description>
+    <launchArgs />
+  </update>
+  <update>
+    <version>1.0.0.0</version>
+    <url>https://cfgsoft.github.io/FrontolServiceAddon/SharpUpdate.dll</url>
+    <filePath>./SharpUpdate.dll</filePath>
+    <md5>0B3B673BF06D0643CEE58D0B31DEF679</md5>
+    <description>Update auto: 15/12/2023 11:26:18 :1.Updated a label.</description>
+    <launchArgs />
+  </update>
+</sharpUpdate>
